@@ -1,33 +1,46 @@
+## Closes
+
+Closes #
+
 ## Summary
 
-Describe what this pull request changes.
+What changed and why.
 
-## Reason
+## Type
 
-Why is this change useful for Beautiful Deep Mind?
+- [ ] `feat` — new functionality
+- [ ] `fix` — bug fix
+- [ ] `test` — tests only
+- [ ] `docs` — documentation only
+- [ ] `research` — hypothesis, experiment, or probe
+- [ ] `chore` — tooling, CI, config
 
-## Type of Contribution
+## Milestone / area
 
-- [ ] Documentation
-- [ ] Research note
-- [ ] Concept improvement
-- [ ] Architecture proposal
-- [ ] Experiment idea
-- [ ] Code
-- [ ] Other
+- [ ] M1 — Memory Core
+- [ ] M2 — Reflection Loop
+- [ ] M3 — Self-Model
+- [ ] M4 — Continuity
+- [ ] M5 — LLM Integration
+- [ ] M6 — CLI
+- [ ] M7 — Experiments
+- [ ] Research / Probe (not tied to a milestone)
+- [ ] Docs / Chore
+
+## Tests
+
+- [ ] `pytest` passes locally
+- [ ] New code has tests
+- [ ] No tests were deleted without justification
 
 ## Limitations
 
-Describe any assumptions, limitations, or open questions.
+Any known limitations, open questions, or follow-up issues.
 
-## Contribution Agreement
+## Contribution agreement
 
-By submitting this pull request, I confirm that:
-
-- [ ] I have read `LICENSE.md`.
-- [ ] I understand that Beautiful Deep Mind is source-available, not open source.
-- [ ] I agree that my contribution may be assigned or licensed to Boring Code under the terms described in `LICENSE.md`.
-- [ ] I have the right to submit this contribution.
-- [ ] This contribution does not include third-party copyrighted material without permission.
-- [ ] This contribution does not make medical claims.
-- [ ] This contribution does not claim that BDM creates, proves, uploads, transfers, or preserves consciousness.
+- [ ] I have read `LICENSE.md`
+- [ ] I understand this project is source-available, not open source
+- [ ] I agree my contribution may be assigned to Boring Code per `LICENSE.md`
+- [ ] This contribution makes no medical claims
+- [ ] This contribution makes no consciousness claims

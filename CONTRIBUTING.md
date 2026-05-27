@@ -110,24 +110,51 @@ Avoid wording such as:
 - "medical breakthrough";
 - "guaranteed cognitive improvement".
 
+## Naming Conventions
+
+Full conventions for branches, issues, PRs, and commits are in `.ai/git-conventions.md`.
+
+**Branch:**
+```
+feat/sqlite-long-term-store
+fix/short-term-buffer-eviction-index
+docs/manifesto-consciousness-framing
+research/h6-memory-reconstruction
+probe/continuity-cross-session
+```
+
+**Issue title:**
+```
+[feat] SQLite persistence for LongTermStore
+[bug] ShortTermBuffer leaves stale index entry after eviction
+[research] Design experiment for H6 — memory reconstruction
+[probe] Cross-session continuity probe
+```
+
+**PR title:**
+```
+feat(memory): add SQLite persistence to LongTermStore (#12)
+fix(memory): remove stale index entry on buffer eviction (#8)
+docs(manifesto): reframe primary goal around consciousness research (#3)
+```
+
 ## Pull Request Process
 
 Before opening a pull request:
 
-1. Check existing issues and discussions.
-2. Make sure your change is aligned with the project scope.
-3. Keep the pull request small and focused.
-4. Explain what you changed and why.
-5. Mention any limitations or assumptions.
-6. Confirm that you agree with the contribution terms.
+1. Check existing issues — open one first if it does not exist.
+2. Make sure your change is aligned with the current milestone (`.ai/current.md`).
+3. Keep the pull request small and focused — one issue per PR.
+4. All tests must pass before requesting review.
+5. PR title must reference the issue number.
+6. Use `.github/PULL_REQUEST_TEMPLATE.md` for the description.
 
-A pull request should include:
+A pull request must include:
 
-- a clear title;
-- a short summary;
-- the reason for the change;
-- affected files;
-- any relevant notes or limitations.
+- a title in the format above;
+- `Closes #n` in the description;
+- a summary of what changed and why;
+- any limitations or open questions.
 
 ## Pull Request Checklist
 
