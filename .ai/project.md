@@ -6,11 +6,13 @@ Beautiful Deep Mind (BDM)
 
 ## One-line description
 
-An experimental cognitive architecture that explores how persistent memory, reflection, self-modeling, and context continuity can improve long-term coherence in AI-assisted systems.
+An experimental cognitive architecture and research framework for investigating what consciousness is and why current computational systems cannot be minds the way a human brain is.
 
 ## Primary goal
 
-> BDM is an experimental cognitive architecture for AI systems that investigates how memory, reflection, learning from experience, and context continuity may influence more consistent system behavior over time.
+> BDM investigates the question of consciousness and the gap between computation and cognition — by building software models of memory, reflection, self-modeling, and continuity, and studying where those models succeed, where they fail, and what those failures reveal.
+
+The framework (memory layers, reflection loop, self-model, continuity) is an instrument of investigation, not a product. The question is not "how do we build a better AI assistant." The question is: what is missing from a computer that a brain has — and is that gap an engineering problem or something more fundamental?
 
 BDM does not claim to create consciousness.
 BDM does not make medical claims.

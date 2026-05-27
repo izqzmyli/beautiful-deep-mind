@@ -5,6 +5,14 @@ It defines how Claude should behave in this repository.
 
 ---
 
+## Read this first
+
+**Current work, active task, and why:** `.ai/current.md`
+
+Always read `.ai/current.md` before starting any task. It tells you what is being worked on right now, which branch of the project it belongs to, and what is explicitly out of scope. If the user asks you to do something not covered there, confirm before proceeding.
+
+---
+
 ## Project identity
 
 **Beautiful Deep Mind (BDM)** is an experimental cognitive architecture project.
@@ -22,10 +30,8 @@ Current milestone: `.ai/milestones.md`
 
 ## Current focus
 
-**Milestone 1 — Memory Core**
-
-Active work is in `packages/bdm-core/src/bdm/memory/`.
-Do not start work on `reflection/`, `self_model/`, or `continuity/` unless the user explicitly asks.
+See `.ai/current.md` — that file is the authoritative source of what is active right now.
+Never rely on this file for current task context; it may be stale. `current.md` is always up to date.
 
 ---
 
@@ -74,19 +80,16 @@ packages/
 
 ---
 
-## Commit message format
+## Naming conventions
 
+Branch names, issue titles, PR titles, commit messages: `.ai/git-conventions.md`
+
+Short version:
 ```
-<type>(<scope>): <short description>
-
-Types: feat, fix, test, docs, chore, refactor
-Scope: memory, reflection, self_model, continuity, cli, docs, ci
-
-Examples:
-feat(memory): add SQLite persistence to LongTermStore
-test(memory): add edge cases for ShortTermBuffer eviction
-fix(episodic): raise ValueError on empty summary
-docs(roadmap): update Milestone 1 status to in-progress
+branch:  feat/sqlite-long-term-store
+issue:   [feat] SQLite persistence for LongTermStore
+PR:      feat(memory): add SQLite persistence to LongTermStore (#12)
+commit:  feat(memory): add SQLite persistence to LongTermStore
 ```
 
 ---
